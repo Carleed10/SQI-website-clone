@@ -1,0 +1,42 @@
+.forth{
+    width: 100%;
+    height: 110vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-pic{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.wrap h1{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+.grayscale, .grayscale2, .grayscale3{
+    width: 30%;
+    /* background-color: chartreuse; */
+}
+.grayscale h5, .grayscale2 h5, .grayscale3 h5{
+    margin-top: 20px;
+}
+.grayscale button, .grayscale2 button, .grayscale3 button{
+    background: none;
+    border: none;
+    border-bottom: 3px solid black;
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.forth img{
+    width: 300px;
+    filter: grayscale();
+    margin: 20px 0px;
+}
